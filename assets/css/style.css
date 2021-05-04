@@ -1,0 +1,30 @@
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.blue{
+  color: blue;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bk-img{
+  background-image: url(../wallhaven-dg7y23.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius:20px;
+}
+.bk-img-2{
+  background-image: url(../wallhaven-2e1qxm.jpg);
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius:20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <title>Vue Hello</title>
+</head>
+<body>
+  
+  <div id="app">
+    <h1 :class="colore">{{messaggio}}</h1>
+    <input type="text" v-model="messaggio" @keyup.enter="cambiaColore('blue')">
+    <button @click="cambiaColore('red')">Click per red</button>
+    <button @click="cambiaColore('green')">Click per green</button>
+    <button @click="cambiaImmagine('bk-img')">Click per img 1 </button>
+    <button @click="cambiaImmagine('bk-img-2')">Click per img 2</button>
+
+    <!-- Aggiungere alla pagina un’immagine, presa anch’essa da un data.
+    FATTO! ma commentato per sperimentare altre cose -->
+    <!-- <div :class="immagine"></div> -->
+    
+
+    <div :class="immagine">
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script
+</body>
+</html>
